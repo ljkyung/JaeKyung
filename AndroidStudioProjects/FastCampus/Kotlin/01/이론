@@ -1,0 +1,34 @@
+변수
+- 변경 가능한 변수
+    - var (variable, 변수)
+- 변경이 불가능한 변수
+    - val (value, 값)
+
+선언하는 방법
+val/var 이름
+- val school
+- var school
+- 변수 이름 작명 = 네이밍
+
+할당하는 방법
+val/var 이름 = 값
+- school = "대한민국 학교"
+- val/var school = "대한민국 학교" -> 선언과 할당을 동시에 하는 방법
+
+암묵적인 규칙
+val 을 선언 할 때는 대문자로 선언
+val SCHOOL = "학교"
+var 을 선언 할 때는 소문자로 선언
+var phoneNumber = "010-1111-1111"
+
+두개의 단어를 합쳐서 네이밍을 할때
+    카멜케이스 스타일
+    - 낙타
+    - 대소문자를 반복
+    - phoneNumber
+    스네이크 스타일
+    - _
+    - phone_number
+
+자동정렬하는 방법
+- 단축키로 사용!
