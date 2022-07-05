@@ -1,8 +1,11 @@
+var number100: Int = 100
+
+// 함수를 선언하는 방법
 fun plusNumbers(first_num: Int, second_num: Int): Int {
     val result: Int = first_num + second_num
     return result
 }
-
+// 함수를 호출하는 방법
 plusNumbers(first_num = 10, second_num = 20)
 plusNumbers(10, 20)
 
@@ -34,3 +37,6 @@ fun plusMultipleNumbers(vararg numbers: Int): Unit {
     println(number)
 }
 plusMultipleNumbers( 1, 2, 3, 4, 5)
+
+number100 = 200
+println(number100)
