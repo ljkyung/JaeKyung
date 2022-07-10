@@ -7,7 +7,7 @@ for (i in 1..3) {
     }
 }
 
-println("------------")
+println("Break + Loop------------")
 // break + label
 loop@for (i in 1..3) {
     println("i : " + i)
@@ -27,7 +27,7 @@ for (i in 1..3) {
     }
 }
 
-println("-----------")
+println("Continue + Loop-----------")
 
 loop@for (i in 1..3) {
     println("i : " + i)
@@ -49,3 +49,11 @@ for (i in 1..3) {
     }
 }
 returnFunction()
+
+// foreach + Label
+// foreach는 continue와 break 사용 불가
+println("foreach--------------")
+listOf(1,2,3).forEach loop@{
+    if(it==2) return@loop
+    else println(it)
+}
