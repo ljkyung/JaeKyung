@@ -55,9 +55,9 @@ class Calculater2 constructor(val initialValue: Int = 0) {
 // class Calculater3 constructor(val result: Int = 0) {
 
 }
-val calculater4 = Calculater2(10)
-calculater4.calculater('*', 10)
-println(calculater4.result)
+//val calculater4 = Calculater2(10)
+//calculater4.calculater('*', 10)
+//println(calculater4.result)
 
 
 // 계산기3
@@ -65,3 +65,29 @@ println(calculater4.result)
 //        - 한번에 여러가지의 연산을 입력 받을 수 있어야 한다
 //        - ex> 더하기3 더하기5 나누기10 곱하기2지
 //        - ex> calculater.calculate(더하기3, 더하기5, 빼기2, 나누기5)
+
+class Calculater3 {
+    var result : Int = 0
+    fun calculate(operaters : List<Char>, inputNumbers : List<Int>) {
+        operaters.forEachIndexed { index, operater ->
+            this._calculate(operater, inputNumbers[index])
+        }
+    }
+
+    fun _calculate(function: Char, inputNumber: Int) {
+        when (function) {
+            '+' -> this.result += inputNumber
+            '-' -> this.result -= inputNumber
+            '*' -> this.result *= inputNumber
+            '/' -> this.result /= inputNumber
+            else -> println("잘못된 연산 입니다.")
+        }
+    }
+}
+
+val calculater3 = Calculater3()
+calculater3.calculate(listOf<Char>('+', '-'), listOf<Int>(10, 20))
+println(calculater3.result)
+// [('+', 50) ('-', 60]
+// [(Any, Any) (Any, Any)] --> 실제
+// [(Char, Int) (Char, Int)] --> 기대
