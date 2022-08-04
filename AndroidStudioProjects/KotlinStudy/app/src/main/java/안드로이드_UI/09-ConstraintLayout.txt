@@ -14,3 +14,32 @@ ConstraintLayout
             - 아이디로 설정된 뷰들
             - parent
                 - B Left_toLeftOf parent
+
+
+2> 여백
+- 해당 방향으로 여백을 두기 위해서는 반드시 그쪽 방향에 제약이 있어야 한다
+- layout_marginLeft = 100dp
+- layout_constraintLeft_toLeftOf = parent
+
+3> Bias(치우침)
+- layout_constraintHorizontal_bias = 값
+- layout_constraintVertical_bias = 값
+- 값
+    - 비율로 설정을 해준다
+    - 1 인 경우 100% 치우친다
+    - 0.5 인 경우 50% 치우친다 -> 변화없음
+
+4> 비율로 설정하는 방법 -> LinearLayout Weight
+- layout_constrainHorizontal_weight
+- layout_constrainVertical_weight
+- 비율을 주려는 세로 또는 세로의 크기는 0dp로 해야한다
+
+5> 원형 위치 설정 (Circular Positioning)
+- layout_constraintCircle : 기준을 정한다
+- layout_constraintCircleadius : 두 중심 간의 거리
+- layout_constraintCircleAngle : 각도
+
+6> Chain 속성
+- Spread Chain
+- Spread Inside
+- Packed
