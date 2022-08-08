@@ -43,3 +43,7 @@ ConstraintLayout
 - Spread Chain
 - Spread Inside
 - Packed
+
+언어의 특징
+- LTR(Left to Right) : 글자를 적는 방향이 왼쪽에서 오른쪽 -> Start = Left, End = Right
+- RTL(Right to Left) : 글자를 적는 방향이 오른쪽에서 왼쪽 -> Start = Right, End = Left
