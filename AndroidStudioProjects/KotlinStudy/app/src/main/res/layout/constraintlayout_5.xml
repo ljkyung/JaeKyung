@@ -14,12 +14,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:background="@color/black"
-        app:layout_constraintCircle="id/center"
-        app:layout_constraintCircleRadius="50dp"
-        app:layout_constraintCircleAngle="730"/>
+<!--    <TextView-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:background="@color/black"-->
+<!--        app:layout_constraintCircle="id/center"-->
+<!--        app:layout_constraintCircleRadius="50dp"-->
+<!--        app:layout_constraintCircleAngle="730"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
