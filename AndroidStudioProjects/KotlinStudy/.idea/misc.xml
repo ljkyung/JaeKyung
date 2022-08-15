@@ -3,10 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/drawable/blue_background.xml" value="0.2425" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/drawable/drawable1.xml" value="0.237" />
-        <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/drawable/drawable2.xml" value="0.1615" />
-        <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/drawable/yellow_background.xml" value="0.2435" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/constraintlayout_1.xml" value="0.2708333333333333" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/constraintlayout_2.xml" value="0.271875" />
@@ -19,7 +16,6 @@
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/drawable.xml" value="0.259375" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/framelayout.xml" value="0.271875" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/gravity.xml" value="0.2038266302225693" />
-        <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/homework_1.xml" value="0.25" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/linearlayout.xml" value="0.21" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/linearlayout_05.xml" value="0.16995947315096252" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/linearlayout_homework1.xml" value="0.271875" />
@@ -31,6 +27,8 @@
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/scrollview.xml" value="0.2708333333333333" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/test.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/JaeKyung Lee/Study/AndroidStudioProjects/KotlinStudy/app/src/main/res/layout/test2.xml" value="0.20390625" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/homework_1.xml" value="0.19610507246376813" />
       </map>
     </option>
   </component>
