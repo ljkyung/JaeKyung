@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\JaeKyung Lee\Documents\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\JaeKyung Lee\Documents\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\firstSpring" path="/app" reloadable="true" source="org.eclipse.jst.jee.server:firstSpring"/><Context docBase="C:\Users\JaeKyung Lee\Documents\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ch2" path="/ch2" reloadable="true" source="org.eclipse.jst.jee.server:ch2"/></Host>
+      <Context docBase="C:\Users\JaeKyung Lee\Study\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\JaeKyung Lee\Study\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\firstSpring" path="/app" reloadable="true" source="org.eclipse.jst.jee.server:firstSpring"/><Context docBase="C:\Users\JaeKyung Lee\Study\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ch2" path="/ch2" reloadable="true" source="org.eclipse.jst.jee.server:ch2"/></Host>
     </Engine>
   </Service>
 </Server>
